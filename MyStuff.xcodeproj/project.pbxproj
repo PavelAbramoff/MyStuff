@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		12D518442B7F2F4200F928A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518432B7F2F4200F928A3 /* AppDelegate.swift */; };
 		12D518462B7F2F4200F928A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518452B7F2F4200F928A3 /* SceneDelegate.swift */; };
-		12D518482B7F2F4200F928A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518472B7F2F4200F928A3 /* ViewController.swift */; };
-		12D5184B2B7F2F4200F928A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D518492B7F2F4200F928A3 /* Main.storyboard */; };
+		12D518482B7F2F4200F928A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518472B7F2F4200F928A3 /* MainViewController.swift */; };
 		12D5184D2B7F2F4700F928A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D5184C2B7F2F4700F928A3 /* Assets.xcassets */; };
 		12D518502B7F2F4700F928A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D5184E2B7F2F4700F928A3 /* LaunchScreen.storyboard */; };
 		12D5185B2B7F2F4800F928A3 /* MyStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D5185A2B7F2F4800F928A3 /* MyStuffTests.swift */; };
 		12D518652B7F2F4800F928A3 /* MyStuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518642B7F2F4800F928A3 /* MyStuffUITests.swift */; };
 		12D518672B7F2F4800F928A3 /* MyStuffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D518662B7F2F4800F928A3 /* MyStuffUITestsLaunchTests.swift */; };
+		187210572B846F9A002B021A /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210562B846F9A002B021A /* UIColor + Extensions.swift */; };
+		1872105E2B8470FB002B021A /* UIFont + Extencions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872105D2B8470FB002B021A /* UIFont + Extencions.swift */; };
+		187210602B8471CA002B021A /* UIView + Extencions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872105F2B8471CA002B021A /* UIView + Extencions.swift */; };
+		187210622B8472A8002B021A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210612B8472A8002B021A /* CalendarView.swift */; };
+		187210652B847305002B021A /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210642B847305002B021A /* CalendarCollectionViewCell.swift */; };
+		187210672B847383002B021A /* CalendarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210662B847383002B021A /* CalendarCollectionView.swift */; };
+		187210692B8473C4002B021A /* Date + Extancions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210682B8473C4002B021A /* Date + Extancions.swift */; };
+		1872106B2B84740E002B021A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872106A2B84740E002B021A /* WeatherView.swift */; };
+		1872106D2B847451002B021A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872106C2B847451002B021A /* WeatherModel.swift */; };
+		187210702B847B92002B021A /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872106F2B847B92002B021A /* NetworkDataFetch.swift */; };
+		187210722B847BC0002B021A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210712B847BC0002B021A /* NetworkRequest.swift */; };
+		187210742B847BEB002B021A /* NetworkImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210732B847BEB002B021A /* NetworkImageRequest.swift */; };
+		187210762B847C3D002B021A /* UIViewController + Extencions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187210752B847C3D002B021A /* UIViewController + Extencions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +51,7 @@
 		12D518402B7F2F4200F928A3 /* MyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D518432B7F2F4200F928A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D518452B7F2F4200F928A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12D518472B7F2F4200F928A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12D5184A2B7F2F4200F928A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12D518472B7F2F4200F928A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		12D5184C2B7F2F4700F928A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D5184F2B7F2F4700F928A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12D518512B7F2F4700F928A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,21 @@
 		12D518602B7F2F4800F928A3 /* MyStuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D518642B7F2F4800F928A3 /* MyStuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStuffUITests.swift; sourceTree = "<group>"; };
 		12D518662B7F2F4800F928A3 /* MyStuffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStuffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		187210512B846EFE002B021A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../WorkoutApp/WorkoutApp/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		187210522B846EFE002B021A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../WorkoutApp/WorkoutApp/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		187210562B846F9A002B021A /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		1872105D2B8470FB002B021A /* UIFont + Extencions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extencions.swift"; sourceTree = "<group>"; };
+		1872105F2B8471CA002B021A /* UIView + Extencions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extencions.swift"; sourceTree = "<group>"; };
+		187210612B8472A8002B021A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		187210642B847305002B021A /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		187210662B847383002B021A /* CalendarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionView.swift; sourceTree = "<group>"; };
+		187210682B8473C4002B021A /* Date + Extancions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extancions.swift"; sourceTree = "<group>"; };
+		1872106A2B84740E002B021A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		1872106C2B847451002B021A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1872106F2B847B92002B021A /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		187210712B847BC0002B021A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		187210732B847BEB002B021A /* NetworkImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageRequest.swift; sourceTree = "<group>"; };
+		187210752B847C3D002B021A /* UIViewController + Extencions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extencions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,11 @@
 		12D518422B7F2F4200F928A3 /* MyStuff */ = {
 			isa = PBXGroup;
 			children = (
-				12D518432B7F2F4200F928A3 /* AppDelegate.swift */,
-				12D518452B7F2F4200F928A3 /* SceneDelegate.swift */,
-				12D518472B7F2F4200F928A3 /* ViewController.swift */,
-				12D518492B7F2F4200F928A3 /* Main.storyboard */,
-				12D5184C2B7F2F4700F928A3 /* Assets.xcassets */,
-				12D5184E2B7F2F4700F928A3 /* LaunchScreen.storyboard */,
-				12D518512B7F2F4700F928A3 /* Info.plist */,
+				1872106E2B847B70002B021A /* Network */,
+				187210582B846FD0002B021A /* Applications */,
+				187210592B847015002B021A /* MainModule */,
+				1872104F2B846E39002B021A /* SupportingFiles */,
+				187210532B846F4C002B021A /* Extancions */,
 			);
 			path = MyStuff;
 			sourceTree = "<group>";
@@ -125,6 +149,118 @@
 				12D518662B7F2F4800F928A3 /* MyStuffUITestsLaunchTests.swift */,
 			);
 			path = MyStuffUITests;
+			sourceTree = "<group>";
+		};
+		1872104F2B846E39002B021A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				187210502B846ECE002B021A /* Fonts */,
+				12D5184C2B7F2F4700F928A3 /* Assets.xcassets */,
+				12D5184E2B7F2F4700F928A3 /* LaunchScreen.storyboard */,
+				12D518512B7F2F4700F928A3 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		187210502B846ECE002B021A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				187210512B846EFE002B021A /* Roboto-Bold.ttf */,
+				187210522B846EFE002B021A /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		187210532B846F4C002B021A /* Extancions */ = {
+			isa = PBXGroup;
+			children = (
+				187210552B846F69002B021A /* UIKit */,
+				187210542B846F5B002B021A /* Components */,
+			);
+			path = Extancions;
+			sourceTree = "<group>";
+		};
+		187210542B846F5B002B021A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				187210682B8473C4002B021A /* Date + Extancions.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		187210552B846F69002B021A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				187210562B846F9A002B021A /* UIColor + Extensions.swift */,
+				1872105D2B8470FB002B021A /* UIFont + Extencions.swift */,
+				1872105F2B8471CA002B021A /* UIView + Extencions.swift */,
+				187210752B847C3D002B021A /* UIViewController + Extencions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		187210582B846FD0002B021A /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				12D518432B7F2F4200F928A3 /* AppDelegate.swift */,
+				12D518452B7F2F4200F928A3 /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		187210592B847015002B021A /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				1872105C2B847040002B021A /* Controllers */,
+				1872105B2B84702F002B021A /* Views */,
+				1872105A2B847026002B021A /* Models */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		1872105A2B847026002B021A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1872106C2B847451002B021A /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1872105B2B84702F002B021A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				187210632B8472ED002B021A /* Cells */,
+				187210612B8472A8002B021A /* CalendarView.swift */,
+				187210662B847383002B021A /* CalendarCollectionView.swift */,
+				1872106A2B84740E002B021A /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1872105C2B847040002B021A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12D518472B7F2F4200F928A3 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		187210632B8472ED002B021A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				187210642B847305002B021A /* CalendarCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1872106E2B847B70002B021A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1872106F2B847B92002B021A /* NetworkDataFetch.swift */,
+				187210712B847BC0002B021A /* NetworkRequest.swift */,
+				187210732B847BEB002B021A /* NetworkImageRequest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +369,6 @@
 			files = (
 				12D518502B7F2F4700F928A3 /* LaunchScreen.storyboard in Resources */,
 				12D5184D2B7F2F4700F928A3 /* Assets.xcassets in Resources */,
-				12D5184B2B7F2F4200F928A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D518482B7F2F4200F928A3 /* ViewController.swift in Sources */,
+				187210722B847BC0002B021A /* NetworkRequest.swift in Sources */,
+				1872106B2B84740E002B021A /* WeatherView.swift in Sources */,
+				187210652B847305002B021A /* CalendarCollectionViewCell.swift in Sources */,
+				187210602B8471CA002B021A /* UIView + Extencions.swift in Sources */,
+				187210622B8472A8002B021A /* CalendarView.swift in Sources */,
+				12D518482B7F2F4200F928A3 /* MainViewController.swift in Sources */,
+				187210762B847C3D002B021A /* UIViewController + Extencions.swift in Sources */,
+				187210672B847383002B021A /* CalendarCollectionView.swift in Sources */,
+				1872105E2B8470FB002B021A /* UIFont + Extencions.swift in Sources */,
+				187210702B847B92002B021A /* NetworkDataFetch.swift in Sources */,
+				187210572B846F9A002B021A /* UIColor + Extensions.swift in Sources */,
 				12D518442B7F2F4200F928A3 /* AppDelegate.swift in Sources */,
 				12D518462B7F2F4200F928A3 /* SceneDelegate.swift in Sources */,
+				1872106D2B847451002B021A /* WeatherModel.swift in Sources */,
+				187210692B8473C4002B021A /* Date + Extancions.swift in Sources */,
+				187210742B847BEB002B021A /* NetworkImageRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		12D518492B7F2F4200F928A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12D5184A2B7F2F4200F928A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12D5184E2B7F2F4700F928A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,12 +583,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyStuff/Info.plist;
+				INFOPLIST_FILE = MyStuff/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,12 +611,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyStuff/Info.plist;
+				INFOPLIST_FILE = MyStuff/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
